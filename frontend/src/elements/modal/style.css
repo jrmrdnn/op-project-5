@@ -1,0 +1,40 @@
+modal-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 99;
+  transition: 0.3s;
+}
+
+.modal-box {
+  position: relative;
+  width: 430px;
+  max-width: calc(100% - 40px);
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.modal-header {
+  margin: 10px 0;
+  font-size: 22px;
+  font-size: 700;
+  text-align: center;
+}
+
+.modal-close {
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border: none;
+  cursor: pointer;
+}

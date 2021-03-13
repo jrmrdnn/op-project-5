@@ -1,0 +1,12 @@
+*/node_modules
+node_modules
+yarn.lock
+yarn-error.log
+.DS_Store
+.DS_Store?
+
+P5_Spécifications fonctionnelles Orinoco (2).pdf
+diagramme_P5.png
+plan_tests.numbers
+plan_tests.pdf
+P5.key

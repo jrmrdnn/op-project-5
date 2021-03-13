@@ -1,0 +1,42 @@
+header {
+  margin-top: -5px;
+  background-color: #f2f2f2;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 240px;
+  height: 80px;
+  background: url("./Orinico.webp") no-repeat center / contain;
+  z-index: 12;
+}
+
+.menu-item {
+  display: inline-flex;
+}
+
+.item {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 1.1px;
+  transition: 0.3s;
+}
+
+.item:hover {
+  font-weight: 700;
+}
+
+.active {
+  border-bottom: 2px solid #1f1f1f;
+}
+
+.active:hover {
+  border-bottom-width: 3px;
+}

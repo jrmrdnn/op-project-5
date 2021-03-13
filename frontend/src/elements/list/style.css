@@ -1,0 +1,36 @@
+list-render {
+  max-width: 400px;
+  margin: 0 15px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  max-width: 370px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  transition: 0.3s;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.card-content {
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.erreur {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+  padding: 15px;
+  color: #fff;
+  background-color: brown;
+  border-radius: 15px;
+}

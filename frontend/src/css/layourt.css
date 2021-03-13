@@ -1,0 +1,14 @@
+.height-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 5px auto;
+  padding: 0 10px;
+  width: 100%;
+  max-width: 1300px;
+}

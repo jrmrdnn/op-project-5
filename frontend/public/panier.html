@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" sizes="144x144" href="icon.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer type="module" src="app.js"></script>
+    <title>Orinoco | Panier</title>
+  </head>
+  <body>
+    <div class="height-fluid">
+      <header>
+        <nav class="container" role="navigation" aria-label="menu">
+          <a class="logo" href="index.html"></a>
+          <ul class="menu-item">
+            <li>
+              <a class="item" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="item active panier" aria-current="page">Panier</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="container">
+        <alert-render></alert-render>
+        <h1>Récapitulatif de votre commande</h1>
+        <cart-render></cart-render>
+      </main>
+      <footer>
+        <p>© Orinoco 2021</p>
+      </footer>
+    </div>
+  </body>
+</html>

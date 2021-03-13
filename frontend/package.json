@@ -1,0 +1,14 @@
+{
+  "name": "orinoco-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "author": "",
+  "scripts": {
+    "dev": "npx rollup -c rollup.config.js --watch"
+  },
+  "devDependencies": {
+    "rollup": "^2.40.0",
+    "rollup-plugin-import-css": "^2.0.0"
+  }
+}

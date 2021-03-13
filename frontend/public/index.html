@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" sizes="144x144" href="icon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer type="module" src="app.js"></script>
+    <title>Orinoco</title>
+  </head>
+  <body>
+    <div class="height-fluid">
+      <header>
+        <nav class="container">
+          <a class="logo" href="index.html" aria-current="page"></a>
+          <ul class="menu-item">
+            <li>
+              <a
+                class="item active"
+                href="index.html"
+                aria-current="page"
+                title="Accueil"
+                >Accueil</a
+              >
+            </li>
+            <li>
+              <a class="item panier" href="panier.html">Panier</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="container">
+        <alert-render></alert-render>
+        <h1>Bienvenu sur ORINOCO</h1>
+        <item-render>
+          <!-- <list-render
+            list="teddies"
+            title="Ours en peluche faits à la main"
+          ></list-render> -->
+          <!-- <list-render list="cameras" title="Caméras vintage"></list-render> -->
+          <list-render list="furniture" title="Meubles en chêne"></list-render>
+        </item-render>
+      </main>
+      <footer>
+        <p>© Orinoco 2021</p>
+      </footer>
+    </div>
+  </body>
+</html>
